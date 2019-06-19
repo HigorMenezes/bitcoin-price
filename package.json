@@ -1,0 +1,30 @@
+{
+  "name": "bitcoin-price",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HigorMenezes/bitcoin-price.git",
+  "author": "Higor Menezes <higor_menezes96@hotmail.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=production node src/index.js",
+    "dev": "NODE_ENV=development nodemon src/index.js",
+    "test": "NODE_ENV=test jest",
+    "prettier:fix": "prettier --config ./.prettierrc.json --write  './src/**/*.*'"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "jest": "^24.8.0",
+    "sequelize": "^5.8.10",
+    "sqlite": "^3.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2",
+    "sequelize-cli": "^5.5.0"
+  }
+}
