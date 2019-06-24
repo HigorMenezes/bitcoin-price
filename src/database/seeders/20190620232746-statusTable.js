@@ -12,8 +12,8 @@ module.exports = {
         },
         {
           id: 200,
-          name: 'pendding',
-          description: 'indicates that is pendding',
+          name: 'pending',
+          description: 'indicates that is pending',
           created_at: new Date(),
           updated_at: new Date(),
         },
